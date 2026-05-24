@@ -1,0 +1,85 @@
+
+.login-box .user-box {  position: relative;}.login-box .user-box input:focus ~ label,.login-box .user-box input:valid ~ label {color: #ffffff;font-size: 12px;}
+.login-box {width: 95%;margin-left: -14px;padding: 20PX;background: #43576b;  box-sizing: border-box;  box-shadow: 0 15px 25px #d9e5e7;  border-radius: 10px;}
+.login-box form a {  position: relative;  display: inline-block;  padding: 10px 20px;  background-image: linear-gradient( BLACK, 50%, lightgrey);  color: #fafafc;
+  font-size: 14px;  text-decoration: none;    text-transform: uppercase;  overflow: hidden;  transition: .25s;    letter-spacing: 3px;  width: 170px;}
+.login-box a span {  position: absolute;  display: block;}.login-box a span:nth-child(1) {  top: 0;  left: -100%;  width: 100%;  height: 2px;  background: linear-gradient(90deg, transparent, #f4f4fa);
+animation: btn-anim1 1s linear infinite;}@keyframes btn-anim1 {  0% {    left: -100%;  }  50%,100% {    left: 100%;  }}.login-box a span:nth-child(2) {  top: -100%;  right: 0;  width: 2px;  height: 100%;
+    background: linear-gradient(180deg, transparent, #fafafa);  animation: btn-anim2 1s linear infinite;  animation-delay: .25s}@keyframes btn-anim2 {  0% {    top: -100%;  }  50%,100% {    top: 100%;  }}
+.login-box a span:nth-child(3) {  bottom: 0;  right: -100%;  width: 100%;  height: 2px;  background: linear-gradient(270deg, transparent, #fafafa);  animation: btn-anim3 1s linear infinite;  animation-delay: .5s}
+@keyframes btn-anim3 {  0% {    right: -100%;  }  50%,100% {    right: 100%;  }}.login-box a span:nth-child(4) {  bottom: -100%;  left: 0;  width: 2px;  height: 100%;  background: linear-gradient(360deg, transparent,  #fafafa);
+    animation: btn-anim4 1s linear infinite;  animation-delay: .75s}@keyframes btn-anim4 {  0% {    bottom: -100%;  }  50%,100% {    bottom: 100%;  }}.login-box a:hover {    background-image: linear-gradient( IndianRed, 50%,  BLACK ); 
+       color: #fff;  border-radius: 5px;  box-shadow: 0 0 10px #f0f0f0,    0 0 25px #fff,    0 0 50px  #ededff,   0 0 100px #ededff;}
+.invoice-box {max-width: 1050px;margin: auto;padding: 20px; border: 1px solid black; box-shadow: 0 0 10px 2px #141414; font-size: 16px; line-height: 24px; font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+color: #0f0f0f; background-color: lightgrey; }
+h1 {padding: 30px;}
+.invoice-box table {width: 100%;line-height: inherit;text-align: left;}
+.invoice-box table td {padding: 5px;vertical-align: top;}
+.invoice-box table tr td:nth-child(2) {text-align: right;}
+.invoice-box table tr.top table td {padding-bottom: 20px;}
+.invoice-box table tr.top table td.title {font-size: 35px;line-height: 35px;color: #333;}
+.invoice-box table tr.information table td {padding-bottom: 40px;}
+.invoice-box table tr.heading td {border-bottom: 1px solid #ddd;font-weight: 900;color: white;font-size: 24px;background-color: IndianRed;
+background-image: linear-gradient( rgb(55, 147, 251), 35%,  #1111ff ); border-radius: 24px; }
+.invoice-box table tr.heading2 td {border-bottom: 1px solid #ddd;font-weight: 900;color: white;font-size: 24px;background-color:
+ IndianRed;background-image: linear-gradient( rgb(189, 95, 117), 50%,  #E75677 ); }
+.invoice-box table tr.heading3 td {border-bottom: 1px solid #ddd;font-weight: 900;font-size: 24px;}
+.invoice-box table tr.details td {padding-bottom: 20px;}.invoice-box table tr.item td {border-bottom: 1px solid #eee;font-weight: 600;
+font-family: Tahoma, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;font-size: 22px;}
+.invoice-box table tr.item.last td {border-bottom: none;}
+.item {font-weight: 600;font-family: Tahoma, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;font-size: 26px;
+  color: #555;transition: color 0.4s;border: rgb(197, 103, 103) 2px solid;}
+.item:nth-child(even) {background-color:rgb(0, 0, 0, / 10%);font-weight: 600;font-family: Tahoma, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+font-size: 26px;  color: #555;transition: color 0.4s;border: rgb(197, 103, 103) 2px solid;}
+.item:hover {    background: DARKGREY;   font-weight: 900; font-family: Tahoma, Helvetica
+Neue, Helvetica, Helvetica, Arial, sans-serif ;
+       font-size: 26px;  color: white; border: none; }
+.invoice-box table tr.total td:nth-child(2) {border-top: 2px solid #eee;font-weight: bold;}
+@media only screen and (max-width: 480px) { .invoice-box table tr.top table td {width: 100%;display: block;text-align: center;}}
+.invoice-box table tr.information table td {width: 100%;display: block;text-align: center;}
+.btn-primary{color:#fff;background-color:#0d6efd;border-color:#0d6efd}.btn-primary:hover{color:#fff;background-color:#0b5ed7;border-color:#0a58ca}
+.btn-check:focus+.btn-primary,.btn-primary:focus{color:#fff;background-color:#0b5ed7;border-color:#0a58ca;
+box-shadow:0 0 0 .25rem rgba(49,132,253,.5)}
+.btn-check:active+.btn-primary,.btn-check:checked+.btn-primary,.btn-primary.active,.btn-primary:active,.show>.btn-primary.dropdown-toggle{
+color:#fff;background-color:#0a58ca;border-color:#0a53be}
+.btn-check:active+.btn-primary:focus,.btn-check:checked+.btn-primary:focus,.btn-primary.active:focus,.btn-primary:active:focus,
+.show>.btn-primary.dropdown-toggle:focus{box-shadow:0 0 0 .25 remrgba(49,132,253,.5)}
+.btn-primary.disabled,.btn-primary:disabled{color:#fff;background-color:#0d6efd;border-color:#0d6efd}
+/** RTL **/
+.invoice-box.rtl {direction: rtl;font-family: Tahoma, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;}
+.invoice-box.rtl table {text-align: right;}.invoice-box.rtl table tr td:nth-child(2) {text-align: left;}.box{border:1px solid IndianRed;}
+.box{width: 400px; height: 1px;background-color: white; border-radius: 30px;display: flex; align-items: center; padding: 20px; border: 3px solid;
+ font-weight: 300PX;} 
+#cstname{width:60%;font: size 12px;font-family: Tahoma, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;border:1px solid IndianRed;font-weight: 600px;
+border-radius:24px;text-align: left;COLOR: #2929b1c4;}
+#myinputs{border: none;    flex: 1;            font-weight: 300PX;        border: none;        outline: none;        font-size: 18px;        padding-left: 10px;}
+#myinputs:hover{border: none;    flex: 1;    font-weight: 300PX;        border: none;        outline: none;        font-size: 18px;        padding-left: 10px;}
+.mybtn{  color:#fff;   background-image: linear-gradient( rgb(55, 147, 251), 35%,  #1111ff );  border-color:#343481;     font-size: 18px;
+    width: 180px;    height: 48px;    border-radius: 10px;  transition-property: width, font-size, font-weight, background-color;
+  transition-duration: 0.7s;  transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1.4);  transition-delay: 0s; }
+.mybtn:hover{  color:WHITE;   background-image: linear-gradient( MAROON, 35%,  PINK );  }
+ .resize {background-color: yellowgreen;  color: olivedrab;  width: 40%;  height: 20px;   padding: 10px;  font-size: 1em;
+  font-family: sans-serif;  transition-property: width, height, font-size, font-weight, background-color; }
+.resize:hover {    width: 70%;  height: 150px;  font-size: 2.3em;  font-weight: bold;  background-color: beige;}
+ a {  color: black; font-family: century Gothic; font-weight: bold;}  a:hover {  color: IndianRed; font-weight: 900px;}
+ input.qty{    border-radius: 24px;    color:BLACK;    font-size:22px;    font-weight:bolder;  }
+ p{    font-size:16px; font-weight: 300px;}
+ .myon{  color:white;  background-color:green;  border-color:green; font-weight: bold; padding-right: 10px; padding-left: 10px;
+ font-size: 18px;    width: 230px;    height: 48px;    border-radius: 30px;
+  transition-property: width, font-size, font-weight, background-color;  transition-duration: 0.7s;
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1.4);  transition-delay: 0s; }
+.myoff{  color:white;  background-color:red;  border-color:red; font-weight: bold;  padding-right: 10px; padding-left: 10px; font-size: 18px;
+    width: 230px;    height: 48px;    border-radius: 30px;  transition-property: width, font-size, font-weight, background-color;
+  transition-duration: 0.7s;  transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1.4);  transition-delay: 0s; }
+ /* .totalbill {background: rgb(12,146,252); background: radial-gradient(circle, rgba(12,146,252,1) 80%, rgba(255,255,255,1) 100%); 
+padding:50px; font-weight:900px; font-size:36px; color:whitesmoke;
+} */
+.offercs{background: linear-gradient( rgb(199, 98, 125) 50%,  rgb(64, 15, 26), black);
+  -webkit-background-clip: text;  -webkit-text-fill-color: transparent;  padding-top: 50px;  font-size: 80px;  font-weight: 700px;
+  /* text-shadow: 2px 2px 20px #3a3ad5a8; */ }
+.tott {background: white; background: linear-gradient( rgba(114, 14, 81, 0.747) 20%,  rgb(51, 23, 215)  100%); font-weight:900px;
+ font-size:36px;  -webkit-background-clip: text;  -webkit-text-fill-color: transparent; }
+ .switch {  position: relative;  display: inline-block;  width: 60px;  height: 34px;}.switch input {  display: none;}
+ .slider {  position: absolute;  cursor: pointer;  top: 0;  left: 0;  right: 0;  bottom: 0;   background-color: #d14460; transition: 0.4s;  border-radius: 34px;}
+.slider:before {  position: absolute;  content: "";  height: 26px;  width: 26px;  left: 4px;  bottom: 4px;  background-color: white;  transition: 0.4s;  border-radius: 50%;  transform: translateX(26px);}
+input:checked + .slider {  background-color: #ccc;}input:checked + .slider:before {  transform: translateX(0px);}
